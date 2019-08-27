@@ -21,8 +21,8 @@
   </property>
   <property name="baseSize">
    <size>
-    <width>2000</width>
-    <height>2000</height>
+    <width>1000</width>
+    <height>500</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -47,10 +47,10 @@
       <x>10</x>
       <y>10</y>
       <width>1101</width>
-      <height>551</height>
+      <height>752</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,0">
      <property name="spacing">
       <number>10</number>
      </property>
@@ -180,6 +180,9 @@ https://github.com/danielgafni/Ortus</string>
          </property>
          <property name="text">
           <string>Output log</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
          </property>
         </widget>
        </item>
@@ -332,6 +335,65 @@ https://github.com/danielgafni/Ortus</string>
         </layout>
        </item>
       </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\n
+
+
+
+
+
+\n
+
+
+
+
+
+
+
+</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>

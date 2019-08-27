@@ -64,14 +64,6 @@ class Core:
         else:
             self.log('You have to log in before getting passwords!')
 
-    def add_passwords(self, keywords, log=True):
-        if self.logged:
-            self.log('adding passwords')
-            for keyword in keywords:
-                self.add_password(keyword, log=log)
-        else:
-            self.log('You have to log in before adding passwords!')
-
     def delete_password(self, keyword, log=True):
         if self.logged:
             if log:

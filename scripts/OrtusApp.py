@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets
 from local import manage
-from appui import Ui_Ortus
+from OrtusUi import Ui_Ortus
 import sys
 
 class mywindow(QtWidgets.QMainWindow):

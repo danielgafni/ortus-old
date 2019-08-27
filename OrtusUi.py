@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'scripts/appui.ui'
+# Form implementation generated from reading ui file 'scripts\OrtusUi.ui'
 #
 # Created by: PyQt5 UI code generator 5.13.0
 #
@@ -20,7 +20,7 @@ class Ui_Ortus(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(Ortus.sizePolicy().hasHeightForWidth())
         Ortus.setSizePolicy(sizePolicy)
-        Ortus.setBaseSize(QtCore.QSize(2000, 2000))
+        Ortus.setBaseSize(QtCore.QSize(1000, 500))
         self.centralwidget = QtWidgets.QWidget(Ortus)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
@@ -30,7 +30,7 @@ class Ui_Ortus(object):
         self.centralwidget.setBaseSize(QtCore.QSize(1800, 1500))
         self.centralwidget.setObjectName("centralwidget")
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(self.centralwidget)
-        self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(10, 10, 1101, 551))
+        self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(10, 10, 1101, 752))
         self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_2)
         self.horizontalLayout_2.setSizeConstraint(QtWidgets.QLayout.SetFixedSize)
@@ -98,6 +98,7 @@ class Ui_Ortus(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.label_7.setFont(font)
+        self.label_7.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft)
         self.label_7.setObjectName("label_7")
         self.verticalLayout_2.addWidget(self.label_7)
         self.text_output_log = QtWidgets.QTextBrowser(self.horizontalLayoutWidget_2)
@@ -177,6 +178,10 @@ class Ui_Ortus(object):
         self.horizontalLayout_4.addWidget(self.passwords)
         self.verticalLayout_4.addLayout(self.horizontalLayout_4)
         self.horizontalLayout_2.addLayout(self.verticalLayout_4)
+        self.label_2 = QtWidgets.QLabel(self.horizontalLayoutWidget_2)
+        self.label_2.setEnabled(True)
+        self.label_2.setObjectName("label_2")
+        self.horizontalLayout_2.addWidget(self.label_2)
         Ortus.setCentralWidget(self.centralwidget)
         self.statusBar = QtWidgets.QStatusBar(Ortus)
         self.statusBar.setObjectName("statusBar")
@@ -211,6 +216,56 @@ class Ui_Ortus(object):
         self.label_6.setText(_translate("Ortus", "Generated password"))
         self.button_generate_password.setText(_translate("Ortus", "Generate Password"))
         self.button_save_password.setText(_translate("Ortus", "Save Password"))
+        self.label_2.setText(_translate("Ortus", "\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\\n\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\\n\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+""))
         self.menuExit.setTitle(_translate("Ortus", "Action"))
         self.actionFile.setText(_translate("Ortus", "File"))
         self.actionExit.setText(_translate("Ortus", "Exit"))
