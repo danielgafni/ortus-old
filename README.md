@@ -2,6 +2,7 @@
 
 This is my password manager.
 It does not in any way store master passwords.
+Generated passwords are encrypted.
 
 Done:
 
@@ -21,16 +22,17 @@ TODO:
 
 1. Clone or download Ortus
 
-2. Install [Python 3](https://www.python.org/downloads/). **<u>!!! Select "add python to path" option when installing !!!</u>**
+2. if noob:
+       Install [Python 3](https://www.python.org/downloads/). **<u>!!! Select "add python to path" option when installing !!!</u>**
 
-3. Run in terminal
-   
-   pip install cryptography PyQt5
-   
-   
-   
-   OR (for noobs) run scripts/install.py
-   
+   if not noob:
+       pass
+
+3. if noob:
+       run scripts/install.py
+   if not noob:
+       pip install cryptography PyQt5
+
 4. Done!
 
 # Usage
