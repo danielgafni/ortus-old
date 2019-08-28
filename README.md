@@ -24,12 +24,14 @@ TODO:
 
 2. if noob:
        Install [Python 3](https://www.python.org/downloads/). **<u>!!! Select "add python to path" option when installing !!!</u>**
+   
 
    if not noob:
        pass
 
 3. if noob:
        run scripts/install.py
+
    if not noob:
        pip install cryptography PyQt5
 
