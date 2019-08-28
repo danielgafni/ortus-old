@@ -96,6 +96,9 @@ class Core:
 
     def register_user_temporary(self, username, master_password):
         email = 'TEMPORARY'
+        if username == '' or master_password == '':
+            self.log(f'Username and password can\'t be empty!')
+            return None
         if not self.logged:
             registered, userfoldername = self.check_registration(username)
             if not registered:
@@ -173,6 +176,9 @@ class Core:
 
     def login(self, username, master_password):
         if not self.logged:
+            if username == '':
+                self.log(f'Username can\'t be empty!')
+                return None
             registered, userfoldername = self.check_registration(username)
             info = load_dict(f'{self.path}//data//users//{userfoldername}', 'info')
             if info != {} and info is not None:
