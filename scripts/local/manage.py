@@ -29,7 +29,7 @@ class Core:
         if self.logged:
             self.log('loading passwords')
             if path is None:
-                path = f'{self.path}\\data\\users\\{self.user.userfoldername}'
+                path = f'{self.path}//data//users//{self.user.userfoldername}'
             self.passwords = load_dict(path, 'passwords', self.user.username + self.user.master_password)
         else:
             self.log('You have to log in before loading passwords!')
@@ -37,7 +37,7 @@ class Core:
     def save_passwords(self, path=None, method='encrypt'):
         if self.logged:
             if path is None:
-                path = f'{self.path}\\data\\users\\{self.user.userfoldername}'
+                path = f'{self.path}//data//users//{self.user.userfoldername}'
             save_dict(self.passwords, path, 'passwords', self.user.username + self.user.master_password,
                           method=method)
         else:
