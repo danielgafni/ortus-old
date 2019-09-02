@@ -24,11 +24,17 @@ TODO:
 
 2. Install [Python 3](https://www.python.org/downloads/). **<u>!!! Select "add python to path" option when installing !!!</u>**
 
-3. Open terminal, navigate to Ortus directory (run cd "path_to_directory") and run 
+3. Open console
+
+4. Navigate to Ortus directory:
+
+   ​	cd "your_path_to_Ortus"
+
+5. Install required modules:
 
    ​	pip install -r requirements.txt
 
-4. Done!
+6. Done!
 
 # Usage
 
