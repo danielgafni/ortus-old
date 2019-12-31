@@ -1,8 +1,7 @@
 # Ortus
 
 This is my password manager.
-It does not in any way store master passwords.
-Generated passwords are encrypted.
+![screenshot](overview/interface.png)
 
 Done:
 
